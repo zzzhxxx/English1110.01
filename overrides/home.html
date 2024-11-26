@@ -1,0 +1,86 @@
+{% extends "main.html" %} {% block tabs %} {{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css" />
+<!-- Hero -->
+<section class="container">
+  <div class="md-grid md-typeset">
+    <div class="hero">
+      <div class="hero-content">
+        <h1>The Evolution of Aircraft Technology</h1>
+        <p>Welcome to the website for The Evolution of Aircraft Technology.</p>
+        <p>
+          You'll find plenty of resources that help you to find out the
+          technologies that are used in the aircraft.
+        </p>
+        <a
+          href="{{ page.next_page.url | url }}"
+          title="{{ page.next_page.title | striptags }}"
+          class="md-button md-button--primary"
+        >
+          Start Here
+        </a>
+        <a
+          href="https://github.com/zzzhxxx/English1110.01"
+          title="English1110.01 on GitHub"
+          class="md-button"
+        >
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Page links -->
+<div class="feature-margin">
+  <div class="f-box">
+    <a href="cockpit">
+      <h2>Cockpit</h2>
+      <hr />
+      <p>
+        A cockpit is the part of an airplane where the pilots sit and control
+        the plane. It’s like the driver’s seat in a car but for an airplane.
+      </p>
+      <h2>
+        <a href="cockpit/airbus">&rarr; Airbus</a><br />
+        <a href="cockpit/boeing">&rarr; Boeing</a><br />
+      </h2>
+    </a>
+  </div>
+  <div class="f-box">
+    <a href="fuselage">
+      <h2>Fuselage</h2>
+      <hr />
+      <p>
+        The fuselage is the main body of a plane. It’s designed to be strong and
+        lightweight, so the plane can fly safely and efficiently.
+      </p>
+    </a>
+  </div>
+  <div class="f-box">
+    <h2>System</h2>
+    <hr />
+    <p>TBD...</p>
+    <h2>
+      <a href="/">&rarr; Airbus</a><br />
+      <a href="/">&rarr; Boeing</a><br />
+    </h2>
+  </div>
+  <div class="f-box">
+    <h2>Cabins</h2>
+    <hr />
+    <p>Where you sit in a plane.</p>
+    <h2>
+      <a href="/">&rarr; Airbus</a><br />
+      <a href="/">&rarr; Boeing</a><br />
+    </h2>
+  </div>
+  <div class="f-box">
+    <a href="737max/">
+      <h2>Concerns about Boeing 737 MAX 8</h2>
+      <hr />
+      <p>What you may need to know about the Boeing 737 MAX 8.</p>
+    </a>
+  </div>
+</div>
+
+{% endblock %} {% block content %}{% endblock %}

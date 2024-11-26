@@ -1,0 +1,104 @@
+site_name: The Evolution of Aircraft Technology
+site_url: https://127.0.0.1
+nav: 
+  - Home: index.md
+  - Cockpit:
+    - Introduction: Cockpit/index.md
+    - Airbus: Cockpit/airbus.md
+    - Boeing: Cockpit/boeing.md
+  - Fuselage: Fuselage.md
+theme:
+  name: material
+  custom_dir: overrides
+  icon: 
+    logo: material/airplane-cog
+  font:
+    text: Inter
+  palette:
+    scheme: slate
+    primary: custom
+  features:
+    - navigation.prune
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # Removed this feature again as it's breaking TOC navigation on known-issues.md
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+  favicon: assets/images/FBW-Tail.png
+plugins:
+  - search:
+      lang: en
+  - external-markdown: {}
+  - awesome-pages: {}
+  - tags: {}
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - skip-lightbox
+      auto_caption: false
+      caption_position: bottom
+
+# Styling Front-end
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/admonitions.css
+  - stylesheets/navigation.css
+
+# Javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
