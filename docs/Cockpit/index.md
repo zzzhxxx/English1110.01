@@ -15,16 +15,17 @@ A cockpit is the part of an airplane where the pilots sit and control the plane.
     ![](../../assets/airbus-c.jpg)[^1]
     Cockpit of Airbus planes.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Getting started](/Cockpit/airbus)
 
 -   __Boeing__
 
     ---
-    ![](../../assets/boeing-c.jpg)[^1]
+    ![](../../assets/boeing-c.jpg)[^2]
     Cockpit of Boeing planes.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    [:octicons-arrow-right-24: Getting started](/Cockpit/boeing)
 
 
 </div>
-[^1]: Photo Credit: Haixing Zhu
+[^1]: Plane: Japan Airlines Airbus A350-900 / Photo Credit: Haixing Zhu
+[^2]: Plane: Hainan Airlines Boeing 787 / Photo Credit: Haixing Zhu

@@ -7,6 +7,15 @@ nav:
     - Airbus: Cockpit/airbus.md
     - Boeing: Cockpit/boeing.md
   - Fuselage: Fuselage.md
+  - Control System: 
+    - Introduction: Control-System/index.md
+    - Airbus: Control-System/airbus.md
+    - Boeing: Control-System/boeing.md
+  - Cabin:
+    - Introduction: Cabin/index.md
+    - Airbus: Cabin/airbus.md
+    - Boeing: Cabin/boeing.md
+  - Future: Future.md
 theme:
   name: material
   custom_dir: overrides
