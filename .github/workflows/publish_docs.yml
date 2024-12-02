@@ -15,15 +15,15 @@ jobs:
         with:
           python-version: 3.8.12
       - name: install dependencies
-	run: pip install \
-	  mkdocs-material \
-	  mkdocs-awesome-pages-plugin \
-	  mkdocs-git-revision-date-localized-plugin \
-	  mkdocs-redirects \
-	  mkdocs-embed-external-markdown \
-	  mkdocs-video \
-	  mkdocs-glightbox \
-	  pillow \
-	  cairosvg \
-	  urllib3<2.0 \
+        run: pip install \
+          mkdocs-material \
+          mkdocs-awesome-pages-plugin \
+          mkdocs-git-revision-date-localized-plugin \
+          mkdocs-redirects \
+          mkdocs-embed-external-markdown \
+          mkdocs-video \
+          mkdocs-glightbox \
+          pillow \
+          cairosvg \
+          urllib3<2.0 \
       - run: mkdocs gh-deploy --force
