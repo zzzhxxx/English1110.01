@@ -1,0 +1,29 @@
+name: mkdocs
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.8.12
+      - name: install dependencies
+	run: pip install \
+	  mkdocs-material \
+	  mkdocs-awesome-pages-plugin \
+	  mkdocs-git-revision-date-localized-plugin \
+	  mkdocs-redirects \
+	  mkdocs-embed-external-markdown \
+	  mkdocs-video \
+	  mkdocs-glightbox \
+	  pillow \
+	  cairosvg \
+	  urllib3<2.0 \
+      - run: mkdocs gh-deploy --force
