@@ -14,7 +14,7 @@ The Boeing 787 was designed to replace some traditional hydraulic and pneumatic 
 ![787](../../assets/control/787-comp.gif)
 
 [^1]: https://www.youtube.com/watch?v=SDWd6rMWhg8
-[^2]: https://www.youtube.com/watch?v=LQ-ZgpWcN2Y&t=3s
+[^2]: https://www.youtube.com/watch?v=LQ-ZgpWcN2Y
 
 
 
