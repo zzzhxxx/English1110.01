@@ -1,55 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://127.0.0.1/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/737max/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/737max/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Fuselage/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Fuselage/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Future/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Future/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cabin/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/about/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cabin/airbus/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cabin/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cabin/boeing/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cabin/airbus/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cockpit/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cabin/boeing/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cockpit/airbus/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cockpit/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Cockpit/boeing/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cockpit/airbus/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Control-System/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Cockpit/boeing/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Control-System/airbus/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Control-System/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
     <url>
-         <loc>https://127.0.0.1/Control-System/boeing/</loc>
+         <loc>https://fly-tech.zzzhxxx.top/Control-System/airbus/</loc>
+         <lastmod>2024-12-03</lastmod>
+    </url>
+    <url>
+         <loc>https://fly-tech.zzzhxxx.top/Control-System/boeing/</loc>
          <lastmod>2024-12-03</lastmod>
     </url>
 </urlset>
